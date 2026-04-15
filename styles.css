@@ -297,30 +297,8 @@ body::before {
     0 18px 45px rgba(0, 0, 0, 0.24);
 }
 
-.site-header--hero .brand-name,
-.site-header--hero .site-nav a:not(.nav-cta),
-.site-header--hero .brand-lockup .eyebrow {
+.site-header--hero .site-nav a:not(.nav-cta) {
   text-shadow: 0 1px 14px rgba(0, 0, 0, 0.55);
-}
-
-.brand-lockup {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-}
-
-.brand-badge {
-  display: grid;
-  place-items: center;
-  min-width: 3.1rem;
-  min-height: 3.1rem;
-  border: 1px solid rgba(154, 122, 71, 0.34);
-  color: var(--gold);
-  font-family: var(--font-hero);
-  font-size: 1.35rem;
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 1;
 }
 
 .eyebrow,
@@ -338,11 +316,6 @@ body::before {
 .stat-label,
 .strip-label {
   color: var(--muted);
-}
-
-.brand-lockup .eyebrow {
-  letter-spacing: 0.22em;
-  font-size: 0.72rem;
 }
 
 /* Section labels — small caps, wide tracking, brass */
@@ -363,25 +336,16 @@ body::before {
   letter-spacing: 0.28em;
 }
 
-.brand-name,
 .site-nav a,
 .button {
   text-decoration: none;
-}
-
-.brand-name {
-  color: var(--ink);
-  font-family: var(--font-radiant);
-  font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .site-nav {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  margin-left: auto;
 }
 
 .site-nav a {
